@@ -3,7 +3,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Sparkles, Trash2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import ReleaseCard from "../components/ReleaseCard";
+import ReleaseCard from "@/components/ReleaseCard";
 
 export default function HomePage() {
   const [inputText, setInputText] = useState("");
