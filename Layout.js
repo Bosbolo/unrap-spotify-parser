@@ -4,12 +4,6 @@ import { Music4 } from "lucide-react";
 export default function Layout({ children }) {
   return (
     <div className="min-h-screen w-full bg-[#121212] text-white font-sans">
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-        body {
-          font-family: 'Inter', sans-serif;
-        }
-      `}</style>
       <header className="py-4 px-6 border-b border-white/10">
         <div className="max-w-5xl mx-auto flex items-center gap-3">
           <div className="w-8 h-8 bg-[#1DB954] rounded-full flex items-center justify-center">
